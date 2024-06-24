@@ -1,5 +1,9 @@
 const ButtonComponent = props => {
-  return <button className={props.className}>{props.btnText}</button>;
+  return (
+    <a href={props.url} target="_blank" rel="noreferrer">
+      <button className={props.className}>{props.btnText}</button>
+    </a>
+  );
 };
 
 export default ButtonComponent;
