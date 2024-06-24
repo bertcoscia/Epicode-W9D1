@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-class FlexContainer extends React.Component {
+class CardContainer extends React.Component {
   render() {
     return (
       <div className={this.props.className}>
@@ -18,4 +18,4 @@ class FlexContainer extends React.Component {
   }
 }
 
-export default FlexContainer;
+export default CardContainer;

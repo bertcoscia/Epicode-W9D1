@@ -1,6 +1,7 @@
 import ImageComponent from "./ImageComponent";
 import ButtonComponent from "./ButtonComponent";
 import ClipboardButton from "./ClipboardButton";
+import ButtonsContainer from "./ButtonsContainer";
 
 const Card = props => {
   return (
@@ -9,10 +10,7 @@ const Card = props => {
       <div class="card-body">
         <p class="card-text">{props.cardTxt}</p>
       </div>
-      <div className="container d-flex justify-content-between align-items-center">
-        <ButtonComponent btnText="Open image in new tab" className="btn btn-success rounded-pill px-3 py-2 mb-3 align-self-center" url={props.imgSrc} />
-        <ClipboardButton className="btn" url={props.imgSrc} />
-      </div>
+      <ButtonsContainer className="container d-flex justify-content-between align-items-center" imgUrl={props.imgSrc} />
     </div>
   );
 };
