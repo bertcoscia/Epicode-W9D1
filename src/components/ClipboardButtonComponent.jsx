@@ -1,7 +1,7 @@
 import React from "react";
 import copyToClipboard from "..";
 
-class ClipboardButton extends React.Component {
+class ClipboardButtonComponent extends React.Component {
   render() {
     return (
       <button
@@ -19,4 +19,4 @@ class ClipboardButton extends React.Component {
   }
 }
 
-export default ClipboardButton;
+export default ClipboardButtonComponent;
