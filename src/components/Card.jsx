@@ -1,6 +1,4 @@
 import ImageComponent from "./ImageComponent";
-import ButtonComponent from "./ButtonComponent";
-import ClipboardButton from "./ClipboardButton";
 import ButtonsContainer from "./ButtonsContainer";
 
 const Card = props => {
